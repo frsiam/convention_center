@@ -1,7 +1,28 @@
+/* google font link  */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&display=swap');
+
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+/* navbar custom css  */
 #nav-text{
     color: whitesmoke;
     font-weight: 500;
 }
+/* card font css  */
 .card-font{
     color: #adb5bd;
+}
+
+.clients{
+    border-radius: 20px;
+    background-image: linear-gradient(rgb(228, 104, 82),gold);
+}
+.clients:hover{
+    transform: scale(1.1);
+    transition: transform 5s ease-in-out 0.3s;
+}
+/* highlighting word  */
+.highlight{
+    color: rgb(255, 0, 128);
 }
