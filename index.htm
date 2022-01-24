@@ -6,6 +6,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Community Center</title>
     <link rel="shortcut icon" href="icons/title_logo.jpg" type="image/x-icon">
+    <!-- custom css stylesheet  -->
+    <link rel="stylesheet" href="custom_css/style.css">
+
+    <!-- font awesome kit -->
+    <script src="https://kit.fontawesome.com/9c640796c1.js" crossorigin="anonymous"></script>
 
     <!-- bootstrap css stylesheet  -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
@@ -14,18 +19,18 @@
     <!-- header section start  -->
     <header>
         <!-- navbar satrt  -->
-        <nav class="navbar navbar-expand-lg navbar-light fixed-top bg-light">
+        <nav class="navbar navbar-expand-lg navbar-light fixed-top">
             <div class="container">
-              <a class="navbar-brand fw-bold fs-5" href="#">YounGBlooD Community Center</a>
+              <a class="navbar-brand fw-bold fs-5" id="nav-text" href="#">YounGBlooD Community Center</a>
               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
               </button>
               <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                 <div class="navbar-nav ms-auto">
-                  <a class="nav-link" href="#">Home</a>
-                  <a class="nav-link" href="#">About</a>
-                  <a class="nav-link" href="#">About us</a>
-                  <a class="nav-link" href="#">Subscribe</a>
+                  <a class="nav-link" id="nav-text" href="#">Home</a>
+                  <a class="nav-link" id="nav-text" href="#package">About us</a>
+                  <a class="nav-link" id="nav-text" href="#">Contact us</a>
+                  <a class="nav-link" id="nav-text" href="#">Subscribe</a>
                 </div>
               </div>
             </div>
@@ -45,7 +50,7 @@
               <div class="carousel-caption d-none d-md-block">
                 <h1>A Grand Space</h1>
                 <p>'Space' defines and determines the mood of the moment. It spreads its spell, resonating an enchanting aura all around.</p>
-                <a class="btn btn-large btn-primary" href="https://www.bashundharaconvention.com/">Book Now</a>
+                <a class="btn btn-large btn-light text-primary fw-bold" href="https://www.bashundharaconvention.com/">Book Now</a>
               </div>
             </div>
             <div class="carousel-item">
@@ -53,7 +58,7 @@
               <div class="carousel-caption d-none d-md-block">
                 <h1>Greetings & Welcome</h1>
                 <p>We discover ourselves in the midst of something that only appeals to our sences.</p>
-                <a class="btn btn-large btn-primary" href="https://www.diccbd.com/">Visit Us</a>
+                <a class="btn btn-large btn-light text-primary fw-bold" href="https://www.diccbd.com/">Visit Us</a>
               </div>
             </div>
             <div class="carousel-item">
@@ -61,7 +66,7 @@
               <div class="carousel-caption d-none d-md-block">
                 <h1>Welcome to BICC</h1>
                 <p>Bangabandhu International Conference Center (BICC) is the only multi-purpose convention facility in the country.</p>
-                <a class="btn btn-large btn-primary" href="#">Visit</a>
+                <a class="btn btn-large btn-light text-primary fw-bold" href="#">Visit</a>
               </div>
             </div>
           </div>
@@ -80,6 +85,98 @@
     </header>
     <!-- header section end  -->
 
+    <!-- main start  -->
+
+    <main>
+      <!-- bonus sectiopn start  -->
+      <!-- bonus sectiopn end  -->
+      <!-- our package section start  -->
+      <section class="container" id="package">
+        <h1 class="text-center mb-5">Our Packages</h1>
+        <div class="row row-cols-1 row-cols-lg-4 g-4 py-5"> 
+          <div class="col">
+            <div class="card h-100 border-0">
+              <div class="card-header border-0 bg-white">
+                <h4 class="fw-bold">$300</h4>
+              </div>
+              <div class="card-body rounded-3">
+                <h3 class="card-title">Business Fair</h3>
+                <p class="card-text">For most businesses event 
+                  like book fair, craft fair.</p>
+                  <p><i class="fas fa-check-circle card-font"></i><span class="ms-1">limited space access</span></p>
+                  <p><i class="fas fa-check-circle card-font"></i><span class="ms-1">Secuirty facility</span></p>
+                  <p><i class="fas fa-check-circle card-font"></i><span class="ms-1">event support</span></p>
+                  <p><i class="fas fa-check-circle card-font"></i><span class="ms-1">Decoration design</span></p>
+                  <p><i class="fas fa-check-circle card-font"></i><span class="ms-1">Per day bill</span></p>
+                  <a href="#" class="btn btn-outline-primary w-50 ms-5 fw-bold">Select Plan</a>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-100 border-0">
+              <div class="card-header border-0 bg-white">
+                <h4 class="fw-bold">$600</h4>
+              </div>
+              <div class="card-body rounded-3">
+                <h3 class="card-title">Wedding Basic</h3>
+                <p class="card-text">For weddings with basic plan
+                  and limited item</p>
+                  <p><i class="fas fa-check-circle card-font"></i><span class="ms-1">Full space access</span></p>
+                  <p><i class="fas fa-check-circle card-font"></i><span class="ms-1">Food arrangement</span></p>
+                  <p><i class="fas fa-check-circle card-font"></i><span class="ms-1">Mangement support</span></p>
+                  <p><i class="fas fa-check-circle card-font"></i><span class="ms-1">Decoration design</span></p>
+                  <p><i class="fas fa-check-circle card-font"></i><span class="ms-1">Billed as shift</span></p>
+                  <a href="#" class="btn btn-outline-primary w-50 ms-5 fw-bold">Select Plan</a>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-100 rounded-3 position-relative bg-primary text-white">
+              
+              <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">
+                HOT
+                <span class="visually-hidden">unread messages</span>
+              </span>
+              <div class="card-header border-0 bg-primary">
+                <h4 class="fw-bold">$900</h4>
+              </div>
+              <div class="card-body rounded-3">
+                <h3 class="card-title">Wedding plus</h3>
+                <p class="card-text text-light">For most weddings with premium plans</p>
+                  <p><i class="fas fa-check-circle card-font text-light"></i><span class="ms-1">Full space access</span></p>
+                  <p><i class="fas fa-check-circle card-font text-light"></i><span class="ms-1">Dedicated team</span></p>
+                  <p><i class="fas fa-check-circle card-font text-light"></i><span class="ms-1">Buffet food</span></p>
+                  <p><i class="fas fa-check-circle card-font text-light"></i><span class="ms-1">Premium Decoration design</span></p>
+                  <p><i class="fas fa-check-circle card-font text-light"></i><span class="ms-1">Pay as plan</span></p>
+                  <a href="#" class="btn btn-light text-primary px-4 w-80 ms-5 fw-bold">Select Plan</a>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-100 border-0">
+              <div class="card-header border-0 bg-white">
+                <h4 class="fw-bold">$1500</h4>
+              </div>
+              <div class="card-body rounded-3">
+                <h3 class="card-title">Corporate event</h3>
+                <p class="card-text">For most corporate business 
+                  events</p>
+                  <p><i class="fas fa-check-circle card-font"></i><span class="ms-1">Full space access</span></p>
+                  <p><i class="fas fa-check-circle card-font"></i><span class="ms-1">Dedicated team</span></p>
+                  <p><i class="fas fa-check-circle card-font"></i><span class="ms-1">Buffet food</span></p>
+                  <p><i class="fas fa-check-circle card-font"></i><span class="ms-1">premium Decoration</span></p>
+                  <p><i class="fas fa-check-circle card-font"></i><span class="ms-1">pay as plan</span></p>
+                  <a href="#" class="btn btn-outline-primary w-50 ms-5 fw-bold">Select Plan</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- our package section end  -->
+    </main>
+
+
+                 <!-- main end  -->
 
     <!-- bootstrap js bundle script  -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
